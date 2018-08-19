@@ -1,8 +1,14 @@
+@charset "UTF-8";
 /* ===================================================================
 
 setting
 
 =================================================================== */
+@media (max-width: 767.98px) {
+  .header__title-concept {
+    font-size: 50px;
+    transform: rotate(-5deg);
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"; } }
 .box {
   width: 5em;
   height: 5em;
@@ -10,6 +16,9 @@ setting
   transform: translateX(var(--tx)) rotate(var(--r));
   transition: transform .1s linear;
   will-change: transform; }
+
+.container {
+  text-align: center; }
 
 .header {
   width: 100vw;

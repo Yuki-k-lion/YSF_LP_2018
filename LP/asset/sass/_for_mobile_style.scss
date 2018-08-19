@@ -1,4 +1,14 @@
 @media (max-width: 767.98px)  {
+	.header{
+		&__title{
+			&-concept{
+				font-size: 50px;
+				transform: rotate(-5deg);
+				font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+			}
+			
+		}
+	}
 	
 	
 }
