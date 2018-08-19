@@ -19,3 +19,11 @@ canvas {
   transform: translateX(var(--tx)) rotate(var(--r));
   transition: transform .1s linear;
   will-change: transform; }
+
+.section_title {
+  color: #ACB6E5;
+  background: -webkit-linear-gradient(bottom, #ACB6E5, #86FDE8);
+  background: -o-linear-gradient(bottom, #ACB6E5, #86FDE8);
+  background: linear-gradient(to top, #ACB6E5, #86FDE8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
