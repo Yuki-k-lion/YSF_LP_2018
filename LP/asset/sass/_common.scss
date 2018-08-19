@@ -1,15 +1,7 @@
-//html,
-//body {
-//  margin: 0;
-//  padding: 0;
-//
-//  overflow: hidden;
-//}
-
+//header_section
 .header {
   width: 100vw;
   height: 100vh;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,6 +16,8 @@ canvas{
 	position: fixed;
 }
 
+
+//box
 .box {
    width: 5em;
    height: 5em;
@@ -33,8 +27,9 @@ canvas{
    will-change: transform;
 }
 
-.section_title{
-	
+//section_share
+.section{
+	&_title{	
 	margin: 0px auto;
 	color: #ACB6E5;//非対応のブラウザでの文字色を設定
 	  background: -webkit-linear-gradient(bottom, #ACB6E5, #86FDE8);
@@ -42,8 +37,10 @@ canvas{
 	  background: linear-gradient(to top, #ACB6E5, #86FDE8);//背景色にグラデーションを指定
 	  -webkit-background-clip: text;//テキストでくり抜く
 	  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
+	}
 }
 
+//footer
 .footer{
 
 	&__list{
@@ -52,7 +49,4 @@ canvas{
 	padding-right: 10px;
 	}
 		
-}
-.container{
-	text-align: center;
 }
