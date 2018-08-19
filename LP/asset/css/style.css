@@ -26,6 +26,7 @@ canvas {
   will-change: transform; }
 
 .section_title {
+  margin: 0px auto;
   color: #ACB6E5;
   background: -webkit-linear-gradient(bottom, #ACB6E5, #86FDE8);
   background: -o-linear-gradient(bottom, #ACB6E5, #86FDE8);
@@ -37,3 +38,6 @@ canvas {
   list-style: none;
   display: inline-block;
   padding-right: 10px; }
+
+.container {
+  text-align: center; }
