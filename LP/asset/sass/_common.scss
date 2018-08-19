@@ -20,7 +20,7 @@
 }
 
 canvas{
-	z-index: 100;
+	z-index: -100;
 	position: fixed;
 }
 
@@ -31,4 +31,28 @@ canvas{
    transform: translateX(var(--tx)) rotate(var(--r));
    transition: transform .1s linear;
    will-change: transform;
+}
+
+.section_title{
+	
+	margin: 0px auto;
+	color: #ACB6E5;//非対応のブラウザでの文字色を設定
+	  background: -webkit-linear-gradient(bottom, #ACB6E5, #86FDE8);
+	  background: -o-linear-gradient(bottom, #ACB6E5, #86FDE8);
+	  background: linear-gradient(to top, #ACB6E5, #86FDE8);//背景色にグラデーションを指定
+	  -webkit-background-clip: text;//テキストでくり抜く
+	  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
+}
+
+.footer{
+
+	&__list{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+	}
+		
+}
+.container{
+	text-align: center;
 }
