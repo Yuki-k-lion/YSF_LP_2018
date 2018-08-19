@@ -32,3 +32,8 @@ canvas {
   background: linear-gradient(to top, #ACB6E5, #86FDE8);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
+
+.footer__list {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px; }

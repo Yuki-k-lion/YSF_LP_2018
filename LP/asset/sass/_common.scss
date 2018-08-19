@@ -41,3 +41,13 @@ canvas{
 	  -webkit-background-clip: text;//テキストでくり抜く
 	  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
 }
+
+.footer{
+
+	&__list{
+	list-style: none;
+	display: inline-block;
+	padding-right: 10px;
+	}
+		
+}
