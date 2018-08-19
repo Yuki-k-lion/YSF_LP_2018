@@ -49,9 +49,9 @@ canvas {
 .section_title {
   margin: 0px auto;
   color: #ACB6E5;
-  background: -webkit-linear-gradient(bottom, #ACB6E5, #86FDE8);
-  background: -o-linear-gradient(bottom, #ACB6E5, #86FDE8);
-  background: linear-gradient(to top, #ACB6E5, #86FDE8);
+  background: -webkit-linear-gradient(bottom, #56CCF2, #2F80ED);
+  background: -o-linear-gradient(bottom, #56CCF2, #2F80ED);
+  background: linear-gradient(to top, #56CCF2, #2F80ED);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 

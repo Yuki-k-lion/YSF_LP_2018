@@ -56,9 +56,9 @@ canvas{
 	&_title{	
 	margin: 0px auto;
 	color: #ACB6E5;//非対応のブラウザでの文字色を設定
-	  background: -webkit-linear-gradient(bottom, #ACB6E5, #86FDE8);
-	  background: -o-linear-gradient(bottom, #ACB6E5, #86FDE8);
-	  background: linear-gradient(to top, #ACB6E5, #86FDE8);//背景色にグラデーションを指定
+	  background: -webkit-linear-gradient(bottom, #56CCF2, #2F80ED);
+	  background: -o-linear-gradient(bottom, #56CCF2, #2F80ED);
+	  background: linear-gradient(to top, #56CCF2, #2F80ED);//背景色にグラデーションを指定
 	  -webkit-background-clip: text;//テキストでくり抜く
 	  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
 	}
