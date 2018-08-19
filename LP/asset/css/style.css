@@ -29,16 +29,15 @@ setting
   .header__box {
     width: 100%;
     height: 100%;
-    border-left: 3px solid #ff0000;
-    border-right: 3px solid #0000ff; }
+    border-left: 3px solid #05FBFF;
+    border-right: 3px solid #7F7FD5; }
     .header__box:before, .header__box:after {
       content: "";
       display: block;
       height: 3px;
       width: 100%;
-      background: -webkit-gradient(linear, left top, right bottom, from(#f00), to(#00f));
-      background: -moz-linear-gradient(left, #f00, #00f);
-      background: linear-gradient(left, #f00, #00f); }
+      background: -webkit-gradient(linear, left top, right bottom, from(#05FBFF), to(#7F7FD5));
+      background: -moz-linear-gradient(left, #05FBFF, #7F7FD5); }
 
 .canvas-stitch {
   display: none; }
