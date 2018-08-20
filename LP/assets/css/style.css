@@ -4,6 +4,15 @@
 setting
 
 =================================================================== */
+@media (min-width: 768px) {
+  .header__title-week {
+    font-size: 5px;
+    transform: rotate(-90deg);
+    color: red; }
+  .header__title-concept {
+    font-size: 50px;
+    transform: rotate(-5deg);
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"; } }
 @media (max-width: 767.98px) {
   div.screen {
     width: 320px;
@@ -259,19 +268,10 @@ body {
       background: -webkit-gradient(linear, left top, right bottom, from(#05FBFF), to(#7F7FD5));
       background: -moz-linear-gradient(left, #05FBFF, #7F7FD5); }
 
-.canvas-stitch {
-  display: none; }
-
-canvas {
-  z-index: -100;
-  position: fixed; }
-
 .section_title {
   margin: 0px auto;
   color: #ACB6E5;
-  background: -webkit-linear-gradient(bottom, #56CCF2, #2F80ED);
-  background: -o-linear-gradient(bottom, #56CCF2, #2F80ED);
-  background: linear-gradient(to top, #56CCF2, #2F80ED);
+  background: url(../img/gradation-text.png);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -366,46 +366,3 @@ canvas {
 /* Background image from http://thepatternlibrary.com/ and http://lorempixel.com */
 .clip-text_one {
   background-image: url(http://cdn8.staztic.com/app/a/6278/6278761/hd-abstract-wallpapers-1-0-s-307x512.jpg); }
-
-.clip-text_two {
-  background-image: url(http://wallpaper-gallery.net/images/black-abstract-wallpaper/black-abstract-wallpaper-4.jpg); }
-
-.clip-text_tree {
-  background-image: url(http://www.cruzine.com/wp-content/uploads/2012/04/005-free-abstract-wallpapers.jpg); }
-
-.clip-text_four {
-  background-image: url(http://hd.wallpaperswide.com/thumbs/abstract_black_design_2-t2.jpg); }
-
-.clip-text_five {
-  background-image: url(http://powellong.com/data/wallpapers/81/WDF_1255144.jpg); }
-
-.clip-text_six {
-  background-image: url(https://www.hdwallpapers.net/previews/3d-colorful-spiral-1057.jpg); }
-
-.clip-text_seven {
-  background-image: url(http://cdn8.staztic.com/app/a/6278/6278761/hd-abstract-wallpapers-1-0-s-307x512.jpg); }
-
-.clip-text_eight {
-  background-image: url(http://lorempixel.com/410/200/people); }
-
-.clip-text_nine {
-  background-image: url(https://wallpaperbrowse.com/media/images/background-pictures-10.jpg); }
-
-.clip-text_ten {
-  background-image: url(http://lorempixel.com/480/200/nightlife/8); }
-
-.clip-text_eleven {
-  background-image: url(http://www.wallcoo.net/cartoon/abstract_rainbow_colours_13_1920x1200/images/Abstract_Rainbow_colour_pattern_4116.jpg);
-  background-size: cover; }
-
-.clip-text_twelve {
-  background-image: url(http://hd.wallpaperswide.com/thumbs/abstract_wallpaper_for_mac-t2.jpg); }
-
-.clip-text_thirteen {
-  background-image: url(http://img.7te.org/images/570x363/abstract-painting-wallpaper-which-is-under-the-abstract-wallpapers-32968.jpg); }
-
-.clip-text_fourteen {
-  background-image: url(https://4kwallpapers.co/wp-content/uploads/2015/09/abstract-colorful-vectors-design-4k-wallpapers.png); }
-
-.clip-text_fifteen {
-  background-image: url(http://lorempixel.com/480/200/nightlife/5); }
