@@ -40,6 +40,15 @@
 	}
 }
 
+.concept{
+	&__message{
+		
+			text-align: center;
+		&-text{
+			padding: 20px;
+		}
+	}
+}
 
 //section_share
 .section{

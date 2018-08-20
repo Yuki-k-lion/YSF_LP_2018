@@ -11,10 +11,6 @@ setting
     transform: rotate(-5deg);
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"; } }
 @media (max-width: 767.98px) {
-  .header__title-week {
-    font-size: 5px;
-    transform: rotate(-90deg);
-    color: red; }
   .header__title-concept {
     font-size: 50px;
     transform: rotate(-5deg);
@@ -46,6 +42,9 @@ setting
     font-size: 15px;
     transform: rotate(-90deg);
     display: inline-block; }
+
+.concept__message-text {
+  text-align: center; }
 
 .section_title {
   margin: 0px auto;
