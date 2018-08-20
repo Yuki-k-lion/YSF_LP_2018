@@ -226,6 +226,9 @@ setting
     font-size: 50px;
     transform: rotate(-5deg);
     font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"; } }
+body {
+  padding-top: 50px; }
+
 .box {
   width: 5em;
   height: 5em;
