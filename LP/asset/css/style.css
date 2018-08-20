@@ -5,6 +5,10 @@ setting
 
 =================================================================== */
 @media (max-width: 767.98px) {
+  .header__title-week {
+    font-size: 5px;
+    transform: rotate(-90deg);
+    color: red; }
   .header__title-concept {
     font-size: 50px;
     transform: rotate(-5deg);
