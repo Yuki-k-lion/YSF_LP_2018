@@ -1,0 +1,11 @@
+@charset "UTF-8";
+@media (min-width: 768px) {
+  .header__title-week {
+    font-size: 5px;
+    transform: rotate(-90deg);
+    color: red; }
+  .header__title-concept {
+    font-size: 100px;
+    font-weight: 1000;
+    transform: rotate(-5deg);
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif"; } }
