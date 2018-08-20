@@ -272,10 +272,12 @@ canvas {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-.footer__list {
-  list-style: none;
-  display: inline-block;
-  padding-right: 10px; }
+.footer {
+  text-align: center; }
+  .footer__list {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px; }
 
 :before,
 :after {
