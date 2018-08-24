@@ -10,7 +10,35 @@
 
 .container{
 	text-align: center;
-	
+
+}
+
+//button
+.application_button{
+  font-size: 35px;
+  font-weight: bold;
+  background: linear-gradient(45deg, #c1e1ff, #037ef3, #30c39e);
+  background-size: 800% 800%;
+
+  -webkit-animation: AnimationName 10s ease infinite;
+  -moz-animation: AnimationName 10s ease infinite;
+  animation: AnimationName 10s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 5%}
+      50%{background-position:100% 96%}
+      100%{background-position:0% 5%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 5%}
+      50%{background-position:100% 96%}
+      100%{background-position:0% 5%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 5%}
+      50%{background-position:100% 96%}
+      100%{background-position:0% 5%}
+  };
 }
 
 
@@ -21,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-	
+
 	&__info{
 		margin: 20px auto;
 	}
@@ -30,9 +58,9 @@
 		padding: 40px;
 	}
 	&__title{
-		
+
 		&-week{
-			margin: auto; 
+			margin: auto;
 				font-size: 15px;
 				transform: rotate(-90deg);
 				display: inline-block;
@@ -43,15 +71,42 @@
 .concept{
 	&__message{
 			text-align: center;
-		&-text{
-			padding: 20px;
-		}
+      background: linear-gradient(230deg, #037ef3, #30c39e, #ffc845, #ef4573);
+      background-size: 800% 800%;
+
+      -webkit-animation: AnimationName 30s ease infinite;
+      -moz-animation: AnimationName 30s ease infinite;
+      animation: AnimationName 30s ease infinite;
+
+      @-webkit-keyframes AnimationName {
+          0%{background-position:0% 5%}
+          50%{background-position:100% 96%}
+          100%{background-position:0% 5%}
+      }
+      @-moz-keyframes AnimationName {
+          0%{background-position:0% 5%}
+          50%{background-position:100% 96%}
+          100%{background-position:0% 5%}
+      }
+      @keyframes AnimationName {
+          0%{background-position:0% 5%}
+          50%{background-position:100% 96%}
+          100%{background-position:0% 5%}
+      };
+
+  		&-text{
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+  			padding: 15vh;
+        line-height: 30px;
+  		}
 	}
 }
 
 //section_share
 .section{
-	&_title{	
+	&_title{
 //		font-size: 40px;
 //		font-weight: 400;
 		margin: 0px auto;
@@ -71,5 +126,5 @@
 	display: inline-block;
 	padding-right: 10px;
 	}
-		
+
 }
