@@ -13,6 +13,20 @@
 
 }
 
+//section_share
+.section{
+	&_title{
+		margin: 20px auto;
+		color: #ACB6E5;//非対応のブラウザでの文字色を設定
+		background: url(../img/gradation-text.png);
+		  -webkit-background-clip: text;//テキストでくり抜く
+		  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
+      &-sub{
+        font-size: 15vw;
+      }
+	}
+}
+
 //button
 .application_button{
   font-size: 35px;
@@ -104,19 +118,30 @@
 	}
 }
 
-//section_share
-.section{
-	&_title{
-		margin: 20px auto;
-		color: #ACB6E5;//非対応のブラウザでの文字色を設定
-		background: url(../img/gradation-text.png);
-		  -webkit-background-clip: text;//テキストでくり抜く
-		  -webkit-text-fill-color: transparent;//くり抜いた部分は背景を表示
-      &-sub{
-        font-size: 15vw;
-      }
-	}
+
+//
+.speaker{
+  &__profile{
+    &-copy{
+      margin-top: 20px;
+    }
+    &-rolle{
+      font-size: 17px;
+      font-weight: 300;
+      margin-top: 0;
+    }
+    &-conpany{
+      margin: 0 auto;
+    }
+  }
 }
+
+.card{
+  &-header{
+    margin-top: 20px;
+  }
+}
+
 
 //footer
 .footer{
