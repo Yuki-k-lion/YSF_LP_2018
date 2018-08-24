@@ -1,6 +1,8 @@
 # YSF_LP_2018
-memo
-https://codepen.io
+- 参考
+[面白い書き方](https://codepen.io)
+[Emmetのチートシート](https://docs.emmet.io/cheat-sheet/)
+[動きのあるメニューの実装](https://lgraubner.github.io/jquery-offcanvas/)
 
 ## 編集の進め方
 - 最初に空のコミットをして
