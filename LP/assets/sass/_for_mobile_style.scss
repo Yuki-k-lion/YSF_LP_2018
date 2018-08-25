@@ -18,4 +18,13 @@
 		}
 	}
 
+	.contents{
+		&__detail{
+			&-explain{
+				text-align: justify;
+			}
+		}
+	}
+
+
 }
