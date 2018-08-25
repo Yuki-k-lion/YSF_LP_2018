@@ -3,7 +3,8 @@
 [面白い書き方](https://codepen.io)  
 [Emmetのチートシート](https://docs.emmet.io/cheat-sheet/)  
 [動きのあるメニューの実装](https://lgraubner.github.io/jquery-offcanvas/)  
-ここで確認！　　
+[グラデーション参考](https://www.nxworld.net/tips/design-parts-using-css-gradient.html)
+ここで確認！  
 https://yuki-k-lion.github.io/YSF_LP_2018/LP
 
 ## 編集の進め方
