@@ -196,6 +196,18 @@
   }
 }
 
+//about
+.about{
+  &__base{
+    text-align: center;
+    // margin: auto;
+  }
+  &__card{
+    margin: auto;
+  }
+}
+
+
 //footer
 .footer{
 	text-align: center;
