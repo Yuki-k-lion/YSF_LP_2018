@@ -2,8 +2,6 @@
 
 	.header{
 		&__title{
-
-
 			&-concept{
 				font-size: 100px;
 				font-weight: 1000;
@@ -12,4 +10,18 @@
 			}
 		}
 	}
+
+	.concept{
+		&__message{
+			&-text{
+				 padding: 15vh;
+			}
+		}
+	}
+.for_mobile{
+	display: none;
+}
+
+
+
 }
