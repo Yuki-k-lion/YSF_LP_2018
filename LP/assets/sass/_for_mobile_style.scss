@@ -2,7 +2,7 @@
 
 	.header{
 		&__title{
-			
+
 			&-concept{
 				font-size: 50px;
 				transform: rotate(-5deg);
@@ -10,5 +10,21 @@
 			}
 		}
 	}
-	
+
+	.concept{
+		&__message{
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+	}
+
+	.contents{
+		&__detail{
+			&-explain{
+				text-align: justify;
+			}
+		}
+	}
+
+
 }
