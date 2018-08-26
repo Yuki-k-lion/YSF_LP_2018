@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="#">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <title>YouthSpeakForum</title>
-  <meta name="description" content="YouthSpeakForumは現代の若者が「じぶん」らしく生きるためのきっかけを提供するイベントです。">
+  <meta name="description" content="「カタガキ」を越えろ。YouthSpeakForumは現代の若者が「じぶん」らしく生きるためのきっかけを提供するイベントです。">
   <meta name="keywords" content="無料,イベント,アイセック,AIESEC,YSF,若者,リーダー">
   <meta property="og:title" content="YouthSpeakForum" />
   <meta property="og:type" content="website" /> <!--またはwebsite, blog-->
@@ -54,25 +54,25 @@
       <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="./assets/img/blurred-image-1.jpg">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="#top" onclick="scrollToDownload()">
               <!--              <i class="now-ui-icons arrows-1_cloud-download-93"></i>-->
               <p>TOP</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="#speakers" onclick="scrollToDownload()">
               <!--              <i class="now-ui-icons arrows-1_cloud-download-93"></i>-->
               <p>SPEAKERS</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="#content" onclick="scrollToDownload()">
               <!--              <i class="now-ui-icons arrows-1_cloud-download-93"></i>-->
               <p>CONTENT</p>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="javascript:void(0)" onclick="scrollToDownload()">
+            <a class="nav-link" href="#about" onclick="scrollToDownload()">
               <!--              <i class="now-ui-icons arrows-1_cloud-download-93"></i>-->
               <p>ABOUT</p>
             </a>
@@ -96,7 +96,7 @@
   <!-- End Navbar -->
 
   <div class="wrapper">
-    <div class="page-header clear-filter" filter-color="orange">
+    <div id="top" class="page-header clear-filter" filter-color="orange">
       <div class="page-header-image" data-parallax="true" style="background-image:url('#');"> </div>
       <div class="container">
         <div class="content-center brand"> <img class="n-logo" src="./assets/img/now-logo.png" alt="">
@@ -130,7 +130,7 @@
             <br> じぶんらしく、じぶんで決めた、<br class="for_mobile">じぶんの人生。 </p>
       </div>
       </section>
-      <section class="speaker">
+      <section id="speakers" class="speaker">
         <div class="container">
           <h1 class="section_title-sub section_title speaker__title">speaker</h1>
           <!--		  CollapseOne-->
@@ -229,7 +229,7 @@
           </div>
         </div>
       </section>
-      <secsion class="contents">
+      <secsion id="content" class="contents">
         <div class="container">
         <h1 class="section_title-sub section_title contents__title">contents</h1>
         <div class="container contents__container col-xm-10 col-sm-6 col-lg-8">
@@ -266,7 +266,7 @@
         </div>
       </secsion>
 
-      <section class="about">
+      <section id="about" class="about">
         <div class="container">
           <h1 class="section_title-sub section_title about__title">about</h1>
           <div class="card row about__base">
@@ -342,6 +342,16 @@
         }, 1000);
       }
     }
+    $(function(){
+      $('a[href^="#"]').click(function(){
+        var speed = 500;
+        var href= $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var position = target.offset().top;
+        $("html, body").animate({scrollTop:position}, speed, "swing");
+        return false;
+      });
+    });
   </script>
 </body>
 
