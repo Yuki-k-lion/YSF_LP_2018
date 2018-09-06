@@ -5,8 +5,16 @@
 
 			&-concept{
 				font-size: 50px;
+				font-weight: BOLD;
 				transform: rotate(-5deg);
 				font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "sans-serif";
+			}
+		}
+	}
+	.page{
+		&-header{
+			&-image{
+				background-position: -65vw !important;
 			}
 		}
 	}
